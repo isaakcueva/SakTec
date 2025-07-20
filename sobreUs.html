@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SakTec</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reproductor.css">
+    <link rel="stylesheet" href="carrito.css">
+
+    <!--link-icons-->
+    <link rel="stylesheet"
+     href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+     
+     <!--letra-->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=MuseoModerno:wght@200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,400;0,600;1,900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <!--header-->
+    <header>
+        <a href="index.html" class="logo"><i class='bx bxs-mobile-vibration'></i>SakTec</a>
+
+        <ul class="navlist">
+            <li><a href="index.html">INICIO</a></li>
+            <li><a href="celulares.html">CELULARES</a></li>
+            <li><a href="tablets.html">TABLETS</a></li>
+            <li><a href="accesorios.html">ACCESORIOS</a></li>
+            <li><a href="sobreUs.html" class="active">SOBRE NOSOTROS</a></li>
+        
+        </ul>
+
+        <div class="h-main">
+            <!--<a href="formulario.html" class="h-btn">Comprar</a>-->
+            <div class="shopping-icon-container" id="bx-shopping-icon">
+                <i class='bx bx-shopping-bag'></i>
+                <div class="shopping-count" id="carrito-cantidad">0</div>
+            </div>
+           
+            <div class="cart">
+                <h2 class="cart-tittle">Tu Carrito</h2>
+                <div class="cart-content">
+                    
+                </div>
+
+                <div class="total">
+                    <div class="total-tittle">Total</div>
+                    <div class="total-price">$0</div>
+                </div>
+
+                <a href="" class="h-btn">Comprar</a>
+
+                <!--<button type="button" class="btn-buy">Comprar</button>-->
+
+                <i class='bx bx-x' id="close-cart"></i>
+
+            </div>
+
+            <div class="bx bx-menu" id="menu-icon"></div>
+            <div class="bx bx-moon" id="darkmode"></div>
+
+        </div>
+    </header>
+
+    <div class="brand-title">
+        <h2>Sobre Nosotros</h2>
+    </div>
+
+    <!-- Presentación de la empresa -->
+<section class="about-us">
+    <div class="container">
+        <div class="brand-title">
+            <h2>Encuentranos en</h2>
+        </div>
+        <div class="about-us-content">
+            <div class="about-box">
+                <h3>QUITO</h3>
+                <p>Av. De los Shirys y Patria. Frente al local de los motes.</p>
+            </div>
+            <div class="about-box">
+                <h3>Guayaquil</h3>
+                <p>Av. Samborondon</p>
+            </div>
+            <div class="about-box">
+                <h3>Cuenca</h3>
+                <p>Parque de la Libertad
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+  <!-- Reproductor de video con título -->
+  <div class="video-container">
+    <h2>Conoce nuestra tienda</h2>
+    <video controls  class="responsive-video" width="300" height="420">
+        <source src="Images/video_Mc.mp4" type="video/mp4">
+        Tu navegador no soporta la etiqueta de video.
+    </video>
+</div>
+
+
+
+
+     <!--Footer-->
+     <footer class="footer">
+        <div class="container" id="miFooter">
+            <div class="row">
+                
+                <div class="footer-col">
+                    <h4>Empresa</h4>
+                    <ul>
+                        <li><a href="#">Sobre Nosotros</a></li>
+                        <li><a href="#">Objetivos</a></li>
+                        <li><a href="#">Visión</a></li>
+                        <li><a href="#">Misión</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Tienda en línea</h4>
+                    <ul>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="celulares.html">Celulares</a></li>
+                        <li><a href="tablets.html">Tablets</a></li>
+                        <li><a href="accesorios.html">Accesorios</a></li>
+                    </ul>
+                </div>
+
+
+                <div class="footer-col">
+                    <h4>Métodos de Pago</h4>
+                    <div class="social-links">
+                        <a href="#"><i class='bx bxl-visa' ></i></a>
+                        <a href="#"><i class='bx bxl-mastercard' ></i></a>
+                        <a href="#"><i class='bx bxl-bitcoin' ></i></a>
+                        <a href="#"><i class='bx bxl-paypal' ></i></a>
+
+                    </div>
+                    
+                </div>
+
+                <div class="footer-col">
+                    <h4>Síguenos</h4>
+                    <div class="social-links">
+                        <a href="#"><i class='bx bxl-facebook' ></i></a>
+                        <a href="#"><i class='bx bxl-twitter' ></i></a>
+                        <a href="#"><i class='bx bxl-instagram' ></i></a>
+                        <a href="#"><i class='bx bxl-linkedin' ></i></a>
+
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="down-arrow">
+        <a href="#miFooter">
+            <i class='bx bx-down-arrow-alt' ></i>
+        </a>
+        
+    </div>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--js file-->
+    <script src="script.js"></script>
+    <script src="reproductor.js"></script>
+    <script src="carrito.js"></script>
+    
+</body>
+</html>

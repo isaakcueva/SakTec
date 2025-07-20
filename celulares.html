@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SakTec</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="carrito.css">
+
+    <!--link-icons-->
+    <link rel="stylesheet"
+     href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+     
+     <!--letra-->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=MuseoModerno:wght@200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,400;0,600;1,900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <!--header-->
+    <header>
+        <a href="index.html" class="logo"><i class='bx bxs-mobile-vibration'></i>SakTec</a>
+
+        <ul class="navlist">
+            <li><a href="index.html">INICIO</a></li>
+            <li><a href="celulares.html" class="active">CELULARES</a></li>
+            <li><a href="tablets.html">TABLETS</a></li>
+            <li><a href="accesorios.html">ACCESORIOS</a></li>
+            <li><a href="sobreUs.html">SOBRE NOSOTROS</a></li>
+        
+        </ul>
+
+        <div class="h-main">
+            <!--<a href="formulario.html" class="h-btn">Comprar</a>-->
+
+            <div class="shopping-icon-container" id="bx-shopping-icon">
+                <i class='bx bx-shopping-bag'></i>
+                <div class="shopping-count" id="carrito-cantidad">0</div>
+            </div>
+           
+            <div class="cart">
+                <h2 class="cart-tittle">Tu Carrito</h2>
+                <div class="cart-content">
+                    
+                </div>
+
+                <div class="total">
+                    <div class="total-tittle">Total</div>
+                    <div class="total-price">$0</div>
+                </div>
+
+                <a href="" class="h-btn">Comprar</a>
+
+                <!--<button type="button" class="btn-buy">Comprar</button>-->
+
+                <i class='bx bx-x' id="close-cart"></i>
+
+            </div>
+
+            <div class="bx bx-menu" id="menu-icon"></div>
+            <div class="bx bx-moon" id="darkmode"></div>
+
+        </div>
+    </header>
+
+    <div class="brand-title">
+        <h2>Dispositivos</h2>
+    </div>
+
+    <!-- Sección de "Celulares" -->
+    <div class="celulares-container">
+        <!-- Celular 1 -->
+        <div class="celular">
+            
+            <div class="celular-info">
+                <img src="Images/celular1-se.png" alt="IphoneSE" class="celular-img">
+                <h2 class="product-tittle">iPhone SE</h2>
+                <p class="price">Precio: $325</p>
+                <p>Pantalla Retina HD - Chip A12 Bionic - 12 MPx </p>
+                <button class="btn-comprar" data-added="false">Añadir al carrito</button>
+            </div>
+        </div>
+
+        <!-- Celular 2 -->
+        <div class="celular">
+            
+            <div class="celular-info">
+                <img src="Images/celular2-11pro.png" alt="iphone11pro" class="celular-img">
+                <h2 class="product-tittle">iPhone 11 Pro</h2>
+                <p class="price">Precio: $699</p>
+                <p>Pantalla Super Retina XDR - Chip A13 Bionic - 12 MPx</p>
+                <button class="btn-comprar">Añadir al carrito</button>
+            </div>
+        </div>
+
+        <!-- Celular 3 -->
+        <div class="celular">
+            
+            <div class="celular-info">
+                <img src="Images/celular3-12.png" alt="iPhone12" class="celular-img">
+                <h2 class="product-tittle">iPhone 12</h2>
+                <p class="price">Precio: $599</p>
+                <p>Pantalla Super Retina XDR - Chip A14 Bionic - 12 MPx</p>
+                <button class="btn-comprar">Añadir al carrito</button>
+            </div>
+        </div>
+
+        <!-- Celular 4 -->
+        <div class="celular">
+            
+            <div class="celular-info">
+                <img src="Images/celular4-14.png" alt="iPhone14" class="celular-img">
+                <h2 class="product-tittle">iPhone 14</h2>
+                <p class="price">Precio: $1299</p>
+                <p>Pantalla Super Retina XDR - Chip A15 Bionic - GPU 5 núcleos - 12 MPx</p>
+                <button class="btn-comprar">Añadir al carrito</button>
+            </div>
+        </div>
+
+        <!-- Celular 5 -->
+        <div class="celular">
+            
+            <div class="celular-info">
+                <img src="Images/celular5-s23ultra.png" alt="S23Ultra" class="celular-img">
+                <h2 class="product-tittle">Galaxy S23 Ultra</h2>
+                <p class="price">Precio: $1299</p>
+                <p>Pantalla AMOLED - Qualcomm Snapdragon 8 Gen - 12 MPx </p>
+                <button class="btn-comprar">Añadir al carrito</button>
+            </div>
+        </div>
+
+        <!-- Celular 6 -->
+        <div class="celular">
+            
+            <div class="celular-info">
+                <img src="Images/celular6-zflip.png" alt="Z Flip 3" class="celular-img">
+                <h2 class="product-tittle">Galaxy Z Flip3 5G</h2>
+                <p class="price">Precio: $899</p>
+                <p>Pantalla Dynamic AMOLED 2X - Qualcomm Snapdragon 888 5G - 10 MPx</p>
+                <button class="btn-comprar">Añadir al carrito</button>
+            </div>
+        </div>
+
+        <!-- Celular 7 -->
+        <div class="celular">
+            
+            <div class="celular-info">
+                <img src="Images/celular7-xia12t.png" alt="Xiaomi 12T" class="celular-img">
+                <h2 class="product-tittle">Xiaomi 12T Pro</h2>
+                <p class="price">Precio: $499</p>
+                <p>Pantalla DotDisplay AMOLED - Snapdragon 8+ Gen 1 - 8 MPx</p>
+                <button class="btn-comprar">Añadir al carrito</button>
+            </div>
+        </div>
+
+        <!-- Celular 8 -->
+        <div class="celular">
+            
+            <div class="celular-info">
+                <img src="Images/celular8-xiaredmin12+.png" alt="Redmi Note 12" class="celular-img">
+                <h2 class="product-tittle">Redmi Note 12 Pro Plus 5G</h2>
+                <p class="price">Precio: $579</p>
+                <p>Pantalla Flow AMOLED FHD+ - MediaTek Dimensity 1080 - 16 MPx</p>
+                <button class="btn-comprar">Añadir al carrito</button>
+            </div>
+        </div>
+
+    </div>
+    
+
+
+    <!--Footer-->
+    <footer class="footer">
+        <div class="container" id="miFooter">
+            <div class="row">
+                
+                <div class="footer-col">
+                    <h4>Empresa</h4>
+                    <ul>
+                        <li><a href="#">Sobre Nosotros</a></li>
+                        <li><a href="#">Objetivos</a></li>
+                        <li><a href="#">Visión</a></li>
+                        <li><a href="#">Misión</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Tienda en línea</h4>
+                    <ul>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="celulares.html">Celulares</a></li>
+                        <li><a href="tablets.html">Tablets</a></li>
+                        <li><a href="accesorios.html">Accesorios</a></li>
+                    </ul>
+                </div>
+
+
+                <div class="footer-col">
+                    <h4>Métodos de Pago</h4>
+                    <div class="social-links">
+                        <a href="#"><i class='bx bxl-visa' ></i></a>
+                        <a href="#"><i class='bx bxl-mastercard' ></i></a>
+                        <a href="#"><i class='bx bxl-bitcoin' ></i></a>
+                        <a href="#"><i class='bx bxl-paypal' ></i></a>
+
+                    </div>
+                    
+                </div>
+
+                <div class="footer-col">
+                    <h4>Síguenos</h4>
+                    <div class="social-links">
+                        <a href="#"><i class='bx bxl-facebook' ></i></a>
+                        <a href="#"><i class='bx bxl-twitter' ></i></a>
+                        <a href="#"><i class='bx bxl-instagram' ></i></a>
+                        <a href="#"><i class='bx bxl-linkedin' ></i></a>
+
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="down-arrow">
+        <a href="#miFooter">
+            <i class='bx bx-down-arrow-alt' ></i>
+        </a>
+        
+    </div>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--js file-->
+    <script src="script.js"></script>
+    <script src="carrito.js"></script>
+</body>
+</html>

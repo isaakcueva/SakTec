@@ -1,0 +1,18 @@
+.video-title {
+    text-align: center;
+  }
+  
+  .video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+  }
+  .responsive-video {
+    max-width: 100%;
+    height: auto;
+  }
+
+  
+    

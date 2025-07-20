@@ -1,0 +1,46 @@
+/* Estilos para el contenedor del video */
+.container {
+    max-width: 800px; /* Ancho máximo deseado */
+    margin: 0 auto; /* Centra el contenedor en la página */
+    text-align: center; /* Centra el contenido dentro del contenedor */
+}
+
+/* Estilos para el video */
+.custom-video {
+    max-width: 100%; /* Ajusta el ancho máximo del video al contenedor */
+    height: auto; /* Calcula automáticamente la altura para mantener la relación de aspecto */
+    display: none; /* Oculta el video por defecto */
+}
+
+/* Estilos para la imagen de portada */
+.video-cover {
+    max-width: 100%; /* Ajusta el ancho máximo de la imagen al contenedor */
+    height: auto; /* Calcula automáticamente la altura para mantener la relación de aspecto */
+    cursor: pointer; /* Cambia el cursor al hacer hover */
+}
+
+/* Estilos para el título del video */
+.video-title {
+    font-size: 24px;
+    margin-top: 20px;
+    color: var(--main-color); /* Ajusta el color según tu esquema de colores */
+}
+
+/* Estilos para el contenedor del video y la imagen de portada */
+.video-wrapper {
+    position: relative;
+    overflow: hidden;
+}
+
+/* Estilos para el video activado */
+.video-active .custom-video {
+    display: block; /* Muestra el video cuando está activado */
+}
+
+.video-wrapper video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}

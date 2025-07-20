@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SakTec</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="carrito.css">
+
+    <!--link-icons-->
+    <link rel="stylesheet"
+     href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+     
+     <!--letra-->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=MuseoModerno:wght@200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,400;0,600;1,900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <!--header-->
+    <header>
+        <a href="index.html" class="logo"><i class='bx bxs-mobile-vibration'></i>SakTec</a>
+
+        <ul class="navlist">
+            <li><a href="index.html">INICIO</a></li>
+            <li><a href="celulares.html">CELULARES</a></li>
+            <li><a href="tablets.html" class="active">TABLETS</a></li>
+            <li><a href="accesorios.html">ACCESORIOS</a></li>
+            <li><a href="sobreUs.html">SOBRE NOSOTROS</a></li>
+        
+        </ul>
+
+        <div class="h-main">
+            <!--<a href="formulario.html" class="h-btn">Comprar</a>-->
+            <div class="shopping-icon-container" id="bx-shopping-icon">
+                <i class='bx bx-shopping-bag'></i>
+                <div class="shopping-count" id="carrito-cantidad">0</div>
+            </div>
+           
+            <div class="cart">
+                <h2 class="cart-tittle">Tu Carrito</h2>
+                <div class="cart-content">
+                    
+                </div>
+
+                <div class="total">
+                    <div class="total-tittle">Total</div>
+                    <div class="total-price">$0</div>
+                </div>
+
+                <a href="" class="h-btn">Comprar</a>
+
+                <!--<button type="button" class="btn-buy">Comprar</button>-->
+
+                <i class='bx bx-x' id="close-cart"></i>
+
+            </div>
+
+            <div class="bx bx-menu" id="menu-icon"></div>
+            <div class="bx bx-moon" id="darkmode"></div>
+
+        </div>
+    </header>
+
+    <div class="brand-title">
+        <h2>Tablets</h2>
+    </div>
+
+    <!-- Sección de "Tablets" -->
+    <div class="celulares-container">
+        <!-- Tablet 1 -->
+        <div class="celular">
+            
+            <div class="celular-info">
+                <img src="Images/ipad1-pro.png" alt="iPadPro" class="celular-img">
+                <h2 class="product-tittle">iPad Pro</h2>
+                <p class="price">Precio: $1300</p>
+                <p>Pantalla Liquid Retina - Chip M2 de Apple - 12 MPx </p>
+                <button class="btn-comprar">Añadir al carrito</button>
+            </div>
+        </div>
+
+        <!-- Tablet 2 -->
+        <div class="celular">
+            
+            <div class="celular-info">
+                <img src="Images/ipad2-normal.png" alt="iPad Normal" class="celular-img">
+                <h2 class="product-tittle">iPad 9NA GEN</h2>
+                <p class="price">Precio: $499</p>
+                <p>Pantalla Retina Multi-Touch - Chip A13 Bionic - 8 MPx</p>
+                <button class="btn-comprar">Añadir al carrito</button>
+            </div>
+        </div>
+
+        <!-- Tablet 3 -->
+        <div class="celular">
+            
+            <div class="celular-info">
+                <img src="Images/ipad3-air.png" alt="iPadAir" class="celular-img">
+                <h2 class="product-tittle">iPad Air</h2>
+                <p class="price">Precio: $1099</p>
+                <p>Pantalla Liquid Retina - Chip M1 de Apple - 12 MPx</p>
+                <button class="btn-comprar">Añadir al carrito</button>
+            </div>
+        </div>
+
+        <!-- Tablet 4 -->
+        <div class="celular">
+            
+            <div class="celular-info">
+                <img src="Images/ipad4-mini.png" alt="iPadMini" class="celular-img">
+                <h2 class="product-tittle">iPad Mini</h2>
+                <p class="price">Precio: $899</p>
+                <p>Pantalla Liquid Retina - Chip A15 Bionic - GPU 6 núcleos - 12 MPx</p>
+                <button class="btn-comprar">Añadir al carrito</button>
+            </div>
+        </div>
+
+        <!-- Tablet 5 -->
+        <div class="celular">
+            
+            <div class="celular-info">
+                <img src="Images/ipad5-tabs9.png" alt="Galaxy Tab 9" class="celular-img">
+                <h2 class="product-tittle">Galaxy Tab S9</h2>
+                <p class="price">Precio: $899</p>
+                <p>Pantalla Dynamic AMOLED 2X - Qualcomm SM8550-AB Snapdragon 8 Gen 2 - 13 MPx </p>
+                <button class="btn-comprar">Añadir al carrito</button>
+            </div>
+        </div>
+
+        <!-- Tablet 6 -->
+        <div class="celular">
+            
+            <div class="celular-info">
+                <img src="Images/ipad6-tabA.png" alt="Galaxy Tab A" class="celular-img">
+                <h2 class="product-tittle">Galaxy Tab A 10</h2>
+                <p class="price">Precio: $599</p>
+                <p>Pantalla vívida - CPU OCta-Core - 8 MPx</p>
+                <button class="btn-comprar">Añadir al carrito</button>
+            </div>
+        </div>
+
+        <!-- Tablet 7 -->
+        <div class="celular">
+            
+            <div class="celular-info">
+                <img src="Images/ipad7-xiapad.png" alt="Xiaomi Pad 6" class="celular-img">
+                <h2 class="product-tittle">Xiaomi Pad 6</h2>
+                <p class="price">Precio: $799</p>
+                <p>Pantalla WQHD++ - Qualcomm® Snapdragon™ 870 - 12 MPx</p>
+                <button class="btn-comprar">Añadir al carrito</button>
+            </div>
+        </div>
+
+        <!-- Tablet 8 -->
+        <div class="celular">
+            
+            <div class="celular-info">
+                <img src="Images/ipad9-xiapad5.png" alt="Xiaomi Pad 5" class="celular-img">
+                <h2 class="product-tittle">Xiaomi Pad 5</h2>
+                <p class="price">Precio: $599</p>
+                <p>Pantalla WQHD+ - Qualcomm Snapdragon 860 con 8 núcleos - 8 MPx</p>
+                <button class="btn-comprar">Añadir al carrito</button>
+            </div>
+        </div>
+
+    </div>
+    
+
+
+    <!--Footer-->
+    <footer class="footer">
+        <div class="container" id="miFooter">
+            <div class="row">
+                
+                <div class="footer-col">
+                    <h4>Empresa</h4>
+                    <ul>
+                        <li><a href="#">Sobre Nosotros</a></li>
+                        <li><a href="#">Objetivos</a></li>
+                        <li><a href="#">Visión</a></li>
+                        <li><a href="#">Misión</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Tienda en línea</h4>
+                    <ul>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="celulares.html">Celulares</a></li>
+                        <li><a href="tablets.html">Tablets</a></li>
+                        <li><a href="#">Accesorios</a></li>
+                    </ul>
+                </div>
+
+
+                <div class="footer-col">
+                    <h4>Métodos de Pago</h4>
+                    <div class="social-links">
+                        <a href="#"><i class='bx bxl-visa' ></i></a>
+                        <a href="#"><i class='bx bxl-mastercard' ></i></a>
+                        <a href="#"><i class='bx bxl-bitcoin' ></i></a>
+                        <a href="#"><i class='bx bxl-paypal' ></i></a>
+
+                    </div>
+                    
+                </div>
+
+                <div class="footer-col">
+                    <h4>Síguenos</h4>
+                    <div class="social-links">
+                        <a href="#"><i class='bx bxl-facebook' ></i></a>
+                        <a href="#"><i class='bx bxl-twitter' ></i></a>
+                        <a href="#"><i class='bx bxl-instagram' ></i></a>
+                        <a href="#"><i class='bx bxl-linkedin' ></i></a>
+
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="down-arrow">
+        <a href="#miFooter">
+            <i class='bx bx-down-arrow-alt' ></i>
+        </a>
+        
+    </div>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--js file-->
+    <script src="script.js"></script>
+    <script src="carrito.js"></script>
+    
+</body>
+</html>

@@ -1,0 +1,93 @@
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"] - SakTec</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=MuseoModerno:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,600;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="~/css/style.css">
+    <link rel="stylesheet" href="~/css/carrito.css">
+    <!-- Agrega aquí cualquier otro archivo CSS personalizado -->
+</head>
+<body>
+    <header class="navbar navbar-expand-lg navbar-light" style="background: var(--bg-color);">
+        <div class="container-fluid">
+            <a href="index.html" class="navbar-brand logo">
+                <i class='bx bxs-mobile-vibration'></i>SakTec
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto navlist">
+                    <li class="nav-item"><a href="#" class="nav-link active">INICIO</a></li>
+                    <li class="nav-item"><a href="celulares.html" class="nav-link">CELULARES</a></li>
+                    <li class="nav-item"><a href="tablets.html" class="nav-link">TABLETS</a></li>
+                    <li class="nav-item"><a href="accesorios.html" class="nav-link">ACCESORIOS</a></li>
+                    <li class="nav-item"><a href="sobreUs.html" class="nav-link">SOBRE NOSOTROS</a></li>
+                </ul>
+                <div class="shopping-icon-container" id="bx-shopping-icon">
+                    <i class='bx bx-shopping-bag'></i>
+                    <div class="shopping-count" id="carrito-cantidad">0</div>
+                </div>
+                <i class='bx bx-moon' id="darkmode"></i>
+            </div>
+        </div>
+    </header>
+    
+    <div class="container mt-3">
+        @RenderBody()
+    </div>
+
+    <footer class="footer bg-dark text-white">
+        <div class="container">
+            <div class="row">
+                <!-- Ajusta las columnas de acuerdo a tu contenido original -->
+                <div class="col-md-4">
+                    <h4>Empresa</h4>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-white">Sobre Nosotros</a></li>
+                        <li><a href="#" class="text-white">Objetivos</a></li>
+                        <li><a href="#" class="text-white">Visión</a></li>
+                        <li><a href="#" class="text-white">Misión</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h4>Tienda en línea</h4>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html" class="text-white">Inicio</a></li>
+                        <li><a href="celulares.html" class="text-white">Celulares</a></li>
+                        <li><a href="tablets.html" class="text-white">Tablets</a></li>
+                        <li><a href="accesorios.html" class="text-white">Accesorios</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h4>Síguenos</h4>
+                    <div class="social-links">
+                        <a href="#" class="text-white"><i class='bx bxl-facebook'></i></a>
+                        <a href="#" class="text-white"><i class='bx bxl-twitter'></i></a>
+                        <a href="#" class="text-white"><i class='bx bxl-instagram'></i></a>
+                        <a href="#" class="text-white"><i class='bx bxl-linkedin'></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Tus scripts personalizados después de los scripts de Bootstrap -->
+    <script src="~/js/site.js"></script>
+    <script src="~/js/carrito.js"></script>
+
+    @RenderSection("Scripts", required: false)
+</body>
+</html>
