@@ -16,9 +16,9 @@ Aplicativo web tipo **e-commerce** para la venta de dispositivos electrónicos.
 ## 🛠️ Tecnologías utilizadas
 
 - HTML5, CSS3, JavaScript
-- Bootstrap (o framework usado)
-- SQL Server (Backend y base de datos)
-
+- Bootstrap 
+- SQL Server
+- C#
 ---
 
 ## 🚀 ¿Cómo ejecutar el proyecto?
@@ -28,9 +28,8 @@ Aplicativo web tipo **e-commerce** para la venta de dispositivos electrónicos.
     git clone https://github.com/isaakcueva/SakTec.git
     cd SakTec
     ```
-2. **Configura la base de datos** en SQL Server (importa el archivo `.sql` si está disponible).
-3. **Levanta el backend** (si existe: C# ASP.NET, Node, etc. — especificar comando si aplica).
-4. **Abre los archivos HTML** en tu navegador o usa un servidor local para desarrollo.
+2. **Levanta el backend** 
+3. **Abre los archivos HTML** 
 
 ---
 
